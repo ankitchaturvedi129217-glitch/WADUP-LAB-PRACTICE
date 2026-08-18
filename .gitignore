@@ -1,0 +1,198 @@
+# ==========================================
+
+# PHP / Web Development .gitignore
+
+# ==========================================
+
+# ------------------------------------------
+
+# Operating System Files
+
+# ------------------------------------------
+
+# Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+
+*~
+
+# ------------------------------------------
+
+# IDE / Editor
+
+# ------------------------------------------
+
+# Visual Studio Code
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains IDEs
+
+.idea/
+*.iml
+
+# Sublime Text
+
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------------------
+
+# PHP
+
+# ------------------------------------------
+
+# PHP error logs
+
+*.log
+
+# PHP temporary files
+
+*.tmp
+*.temp
+
+# Composer
+
+/vendor/
+composer.phar
+composer.lock
+
+# ------------------------------------------
+
+# Environment / Secrets
+
+# ------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+# Local configuration files
+
+config.local.php
+database.local.php
+
+# ------------------------------------------
+
+# Local Server
+
+# ------------------------------------------
+
+# Laragon
+
+# Keep the project files, ignore only local/server-generated data
+
+# XAMPP
+
+xampp/
+
+# WAMP
+
+wamp/
+
+# ------------------------------------------
+
+# Database Files
+
+# ------------------------------------------
+
+*.sql~
+*.sqlite
+*.sqlite3
+
+# ------------------------------------------
+
+# Cache
+
+# ------------------------------------------
+
+.cache/
+cache/
+tmp/
+temp/
+
+# ------------------------------------------
+
+# Uploads
+
+# ------------------------------------------
+
+# Ignore uploaded/generated files
+
+# Uncomment if uploads should NOT be committed:
+
+# LAB-13/uploads/*
+
+# Keep the uploads directory
+
+# !LAB-13/uploads/.gitkeep
+
+# ------------------------------------------
+
+# Build / Coverage
+
+# ------------------------------------------
+
+coverage/
+.phpunit.result.cache
+
+# ------------------------------------------
+
+# Backup Files
+
+# ------------------------------------------
+
+*.bak
+*.backup
+*.old
+*.orig
+
+# ------------------------------------------
+
+# OS / Temporary Files
+
+# ------------------------------------------
+
+*.swp
+*.swo
+*.pid
+
+# Windows temporary files
+
+*.stackdump
+
+# ------------------------------------------
+
+# Node.js (if added later)
+
+# ------------------------------------------
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------------------
+
+# Miscellaneous
+
+# ------------------------------------------
+
+*.zip
+*.rar
+*.7z
+
+```
+```
